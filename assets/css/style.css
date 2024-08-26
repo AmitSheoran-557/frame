@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.card-1 {
+    max-width: 263px;
+    height: 174px;
+
+}
+
+.page-heading {
+    max-width: 565px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40.64px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.page-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #707070;
+}
+
+.change-clr {
+    color: #14A800;
+}
+
+.card-main {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.card-hrs {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #14A800;
+}
+
+.card-para {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.12px;
+    text-align: left;
+    color: #707070;
+}
+
+/* ========================================== */
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+@media (min-width:576px) {
+
+    .page-heading {
+        max-width: 565px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40.64px;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .page-heading {
+        max-width: 565px;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50.64px;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    .page-heading {
+        max-width: 565px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56.64px;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+    }
+
+}
